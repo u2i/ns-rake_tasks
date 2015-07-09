@@ -1,4 +1,4 @@
-require "ns/rake_tasks/version"
+require 'ns/rake_tasks/version'
 
 module Ns
   module RakeTasks
