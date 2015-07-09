@@ -23,5 +23,6 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'rake'
   spec.add_dependency 'pronto'
   spec.add_dependency 'pronto-rubocop'
+  spec.add_dependency 'rubocop-rspec'
   spec.add_dependency 'rubocop-checkstyle_formatter'
 end

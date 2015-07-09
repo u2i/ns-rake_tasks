@@ -7,6 +7,7 @@ module MyPlugin
 
     rake_tasks do
       load 'ns/rake_tasks/tasks/pronto.rake'
+      load 'ns/rake_tasks/tasks/rubocop.rake'
     end
   end
 end
