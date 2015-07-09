@@ -1,3 +1,5 @@
+require 'pronto'
+
 namespace :ns do
   Pronto.gem_names.each { |gem_name| require "pronto/#{gem_name}" }
 
