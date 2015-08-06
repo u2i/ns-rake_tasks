@@ -22,8 +22,10 @@ Gem::Specification.new do |spec|
   # TODO - check if we need production dependency
   spec.add_dependency 'rake'
 
-  spec.add_dependency 'pronto'
-  spec.add_dependency 'pronto-rubocop'
+  unless RUBY_PLATFORM == 'java'
+    spec.add_dependency 'pronto'
+    spec.add_dependency 'pronto-rubocop'
+  end
   spec.add_dependency 'rubocop-rspec'
   spec.add_dependency 'rubocop-checkstyle_formatter'
 

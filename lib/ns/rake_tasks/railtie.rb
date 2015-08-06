@@ -6,9 +6,7 @@ module MyPlugin
     railtie_name :rake_tasks
 
     rake_tasks do
-      load 'ns/rake_tasks/tasks/pronto.rake'
-      load 'ns/rake_tasks/tasks/rspec.rake'
-      load 'ns/rake_tasks/tasks/rubocop.rake'
+      load 'tasks/all'
     end
   end
 end
