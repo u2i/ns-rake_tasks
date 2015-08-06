@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ['Adam Zima']
   spec.email         = ['adam.zima@u2i.com']
   spec.summary       = %q{Gem with rake tasks used across ns projects.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.description   = %q{Write a longer description. Optional.}
   spec.homepage      = ''
   spec.license       = 'MIT'
 

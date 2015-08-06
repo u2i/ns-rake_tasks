@@ -6,7 +6,7 @@ namespace :ns do
   namespace :pronto do
     desc 'run pronto against unstaged'
     task :local do
-      Pronto.run('origin/master', '.')
+      Pronto.run('HEAD', '.')
     end
 
     desc 'run pronto against branch, eg. origin/master'
@@ -14,10 +14,10 @@ namespace :ns do
       Pronto.run(args[:branch_name], '.')
     end
 
-    desc 'run pronto on PR, provide GITHUB_ACCESS_TOKEN=token PULL_REQUEST_ID=id env variables'
-    task :pr do
+    desc 'run pronto on PR, provide base branch as argument and GITHUB_ACCESS_TOKEN=token PULL_REQUEST_ID=id and env variables'
+    task :pr, [:branch_name] do |_t, args|
       formatter = Pronto::Formatter::GithubPullRequestFormatter.new
-      Pronto.run('origin/master', '.', formatter)
+      Pronto.run(args[:branch_name], '.', formatter)
     end
   end
 end
