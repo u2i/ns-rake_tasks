@@ -6,7 +6,7 @@ module MyPlugin
     railtie_name :rake_tasks
 
     rake_tasks do
-      load 'tasks/all'
+      require 'ns/rake_tasks/tasks/all'
     end
   end
 end
