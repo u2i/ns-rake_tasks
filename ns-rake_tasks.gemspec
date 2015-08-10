@@ -25,6 +25,8 @@ Gem::Specification.new do |spec|
   unless defined?(JRUBY_VERSION)
     spec.add_dependency 'pronto'
     spec.add_dependency 'pronto-rubocop'
+  else
+    spec.platform = 'java'
   end
   spec.add_dependency 'rubocop-rspec'
   spec.add_dependency 'rubocop-checkstyle_formatter'
