@@ -22,7 +22,7 @@ Gem::Specification.new do |spec|
   # TODO - check if we need production dependency
   spec.add_dependency 'rake'
 
-  unless RUBY_PLATFORM == 'java'
+  unless defined?(JRUBY_VERSION)
     spec.add_dependency 'pronto'
     spec.add_dependency 'pronto-rubocop'
   end
