@@ -9,7 +9,6 @@ end
 
 namespace :ci do
   RuboCop::RakeTask.new(:rubocop) do |task|
-    task.patterns = %w(**/*.rb **/*.rake)
     task.requires = %w(rubocop/formatter/checkstyle_formatter)
     task.formatters = %w(RuboCop::Formatter::CheckstyleFormatter)
     task.options += %w(--no-color --out=checkstyle.xml)
