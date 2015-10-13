@@ -38,4 +38,5 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency 'ci_reporter'
   spec.add_dependency 'ci_reporter_rspec'
+  spec.add_dependency 'github_changelog_generator'
 end
