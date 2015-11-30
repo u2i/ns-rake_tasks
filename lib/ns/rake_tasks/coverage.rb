@@ -5,7 +5,7 @@ if ENV['COVERAGE']
   require 'codeclimate-test-reporter'
 
   SimpleCov.add_filter '/spec/'
-  SimpleCov.formatter = SimpleCov::Formatter::MultiFormatter[
+  SimpleCov.formatters = [
     SimpleCov::Formatter::HTMLFormatter,
     SimpleCov::Formatter::RcovFormatter,
     SimpleCov::Formatter::RcovTextFormatter,
