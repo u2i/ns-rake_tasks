@@ -1,8 +1,8 @@
 namespace :ns do
   namespace :pronto do
     task :local => '^ci:pronto:local'
-    task :branch => '^ci:pronto:branch'
-    task :pr => '^ci:pronto:pr'
+    task :branch, [:branch_name] => '^ci:pronto:branch'
+    task :pr, [:branch_name] => '^ci:pronto:pr'
   end
 end
 
