@@ -1,5 +1,5 @@
 if defined?(JRUBY_VERSION)
-  namespace :ns do
+  namespace :ci do
     namespace :pronto do
       task :local do
       end
@@ -14,7 +14,7 @@ if defined?(JRUBY_VERSION)
 else
   require 'pronto'
 
-  namespace :ns do
+  namespace :ci do
     Pronto.gem_names.each { |gem_name| require "pronto/#{gem_name}" }
 
     namespace :pronto do
