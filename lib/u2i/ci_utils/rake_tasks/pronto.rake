@@ -1,3 +1,11 @@
+namespace :ns do
+  namespace :pronto do
+    task :local => '^ci:pronto:local'
+    task :branch => '^ci:pronto:branch'
+    task :pr => '^ci:pronto:pr'
+  end
+end
+
 if defined?(JRUBY_VERSION)
   namespace :ci do
     namespace :pronto do
