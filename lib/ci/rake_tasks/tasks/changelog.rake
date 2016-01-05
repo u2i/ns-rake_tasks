@@ -1,6 +1,6 @@
 require 'github_changelog_generator/task'
 
-namespace :ns do
+namespace :ci do
   GitHubChangelogGenerator::RakeTask.new :changelog do |config|
   end
 

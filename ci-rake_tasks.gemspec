@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'ns/rake_tasks/version'
+require 'ci/rake_tasks/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'ns-rake_tasks'
-  spec.version       = Ns::RakeTasks::VERSION
+  spec.name          = 'ci-rake_tasks'
+  spec.version       = Ci::RakeTasks::VERSION
   spec.authors       = ['Adam Zima']
   spec.email         = ['adam.zima@u2i.com']
   spec.summary       = %q{Gem with rake tasks used across ns projects.}

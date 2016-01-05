@@ -1,4 +1,4 @@
-require 'ns/rake_tasks'
+require 'ci/rake_tasks'
 require 'rails'
 
 module MyPlugin
@@ -6,7 +6,7 @@ module MyPlugin
     railtie_name :rake_tasks
 
     rake_tasks do
-      require 'ns/rake_tasks/tasks/all'
+      require 'ci/rake_tasks/tasks/all'
     end
   end
 end
