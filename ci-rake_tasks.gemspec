@@ -22,7 +22,7 @@ Gem::Specification.new do |spec|
   # TODO - check if we need production dependency
   spec.add_dependency 'rake'
 
-  spec.add_dependency 'rubocop-rspec', github: 'nevir/rubocop-rspec', ref: 'cc45f55'
+  spec.add_dependency 'rubocop-rspec'
   spec.add_dependency 'rubocop-checkstyle_formatter'
 
   spec.add_dependency 'simplecov', '~> 0.11.0'
