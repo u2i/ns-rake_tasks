@@ -6,9 +6,12 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+
 ### Added
 
 ### Changed
+- Pronto uses Rugged which does not support JRuby. 
+  Exclude Pronto from dependencies for JRuby.
 
 ## [3.1.1] - 2016-10-11
 
