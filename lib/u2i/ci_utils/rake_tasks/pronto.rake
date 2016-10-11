@@ -1,6 +1,7 @@
 namespace :ci do
   namespace :pronto do
     task :load_pronto_plugins do
+      require 'pronto'
       Pronto::GemNames.new.to_a.each { |gem_name| require "pronto/#{gem_name}" }
     end
 
