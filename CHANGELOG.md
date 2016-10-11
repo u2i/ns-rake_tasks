@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ### Added
 
 ### Changed
+- Drop support for Ruby 1.9
 
 ## [3.2.0] - 2016-10-11
 
