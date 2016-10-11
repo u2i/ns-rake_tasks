@@ -10,8 +10,13 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ### Added
 
 ### Changed
+
+## [3.2.0] - 2016-10-11
+
+### Added
 - Pronto uses Rugged which does not support JRuby. 
-  Exclude Pronto from dependencies for JRuby.
+  Exclude Pronto from dependencies for JRuby 
+  and add support for Java platform
 
 ## [3.1.1] - 2016-10-11
 
