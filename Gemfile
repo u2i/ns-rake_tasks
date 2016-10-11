@@ -1,4 +1,6 @@
 source 'https://rubygems.org'
 
-# Specify your gem's dependencies in u2i-ci_utils.gemspec
+# Remove once seattlerb/path_expander#2 is resolved
+gem 'path_expander', '~> 1.0.1', git: 'https://github.com/mknapik/path_expander.git', branch: '6734999'
+
 gemspec

@@ -32,4 +32,11 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency 'ci_reporter'
   spec.add_dependency 'ci_reporter_rspec'
+
+  spec.add_dependency 'pronto', '~> 0.7'
+  spec.add_dependency 'pronto-rubocop', '~> 0.7'
+  spec.add_dependency 'pronto-brakeman', '~> 0.7'
+  spec.add_dependency 'pronto-flay', '~> 0.7'
+  spec.add_dependency 'pronto-reek', '~> 0.7'
+  spec.add_dependency 'pronto-fasterer', '~> 0.7'
 end
