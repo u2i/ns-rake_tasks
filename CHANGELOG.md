@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ### Changed
 - Bump pronto and its plugins to the latest version
+- Use the latest version of path_expander instead of git fork
 
 ## [3.2.1] - 2017-07-04
 
