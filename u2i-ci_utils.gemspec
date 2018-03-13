@@ -36,11 +36,11 @@ Gem::Specification.new do |spec|
   if RUBY_PLATFORM == 'java'
     spec.platform = 'java'
   else
-    spec.add_dependency 'pronto', '~> 0.9'
-    spec.add_dependency 'pronto-rubocop', '~> 0.9'
-    spec.add_dependency 'pronto-brakeman', '~> 0.9'
-    spec.add_dependency 'pronto-flay', '~> 0.9'
-    spec.add_dependency 'pronto-reek', '~> 0.9'
-    spec.add_dependency 'pronto-fasterer', '~> 0.9'
+    spec.add_dependency 'pronto', '~> 0.9.5'
+    spec.add_dependency 'pronto-rubocop', '~> 0.9.0'
+    spec.add_dependency 'pronto-brakeman', '~> 0.9.1'
+    spec.add_dependency 'pronto-flay', '~> 0.9.0'
+    spec.add_dependency 'pronto-reek', '~> 0.9.0'
+    spec.add_dependency 'pronto-fasterer', '~> 0.9.0'
   end
 end
