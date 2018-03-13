@@ -5,9 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/) 
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
-## [3.2.1] - 2017-07-04
+## [3.3.0] - 2018-03-13
 
-### Added
+### Changed
+- Bump pronto and its plugins to the latest version
+
+## [3.2.1] - 2017-07-04
 
 ### Changed
 - Drop support for Ruby 1.9
