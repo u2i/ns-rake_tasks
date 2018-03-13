@@ -6,14 +6,16 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+
 ### Changed
 - Use the latest version of path_expander instead of git fork
+- Bump pronto and its plugins in the gemspec
 
 ## [3.2.1] - 2017-07-04
 
 ### Changed
 - Drop support for Ruby 1.9
-- Bump pronto and its plugins in the gemspec
+- Bump simplecov dependency to '~> 0.14.1'
 
 ## [3.2.0] - 2016-10-11
 
